@@ -269,7 +269,7 @@ section p.sub_text {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 6.5%;
+    padding: 30px 6.5% 0;
     width: 95%;
     margin-top: 2.7rem;
     background-image: linear-gradient(90deg, #F9FAF7, transparent);
