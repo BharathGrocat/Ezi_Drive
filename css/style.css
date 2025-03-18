@@ -302,7 +302,7 @@ section p.sub_text {
     text-decoration: none;
     position: relative;
     font-family: 'Helvetica-regular';
-
+    letter-spacing: 0.5px;
 }
 
 .ezi_header .main_links .dropdown {
