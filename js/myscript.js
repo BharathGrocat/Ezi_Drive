@@ -28,37 +28,6 @@ $('.moreless-button').click(function () {
   }
 });
 
-
-$(function () {
-  // Owl Carousel
-  var owl = $(".social_main");
-  owl.owlCarousel({
-    items: 3,
-    margin: 10,
-    loop: false,
-    dots: false,
-    mouseDrag: true,
-    nav: false,
-    responsive: {
-      0: {
-        items: 1.5
-      },
-      500: {
-        items: 2.5
-      },
-      700: {
-        items: 3.5
-      },
-      800: {
-        items: 4.5
-      },
-      1100: {
-        items: 5
-      }
-    }
-  });
-});
-
 $(function () {
   // Owl Carousel
   var owl = $(".testmonial_slider");
@@ -66,7 +35,7 @@ $(function () {
     items: 3,
     margin: 10,
     loop: true,
-    dots: false,
+    dots: true,
     mouseDrag: true,
     nav: false,
     navText: [
