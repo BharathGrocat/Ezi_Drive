@@ -767,12 +767,12 @@ section.banner-section {
 }
 
 .banner-section .banner_cont {
-    width: 55%;
+    width: 60%;
     position: relative;
 }
 
 .banner-section .banner_img {
-    width: 45%;
+    width: 40%;
 }
 
 .banner_cont h1 {
@@ -850,7 +850,7 @@ section.banner-section {
 
 .banner_cont .banner_bttn a {
     font-size: 20px;
-    margin: 20px 0;
+    margin: 20px 0 0;
     padding: 13px 35px;
     width: 30%;
     text-align: center;
