@@ -458,8 +458,8 @@ section.counter-main {
 .ezi_header .dropdown {
     display: none;
     position: relative;
+    width: 300px;
     top: 0%;
-    width: 100%;
     left: -2%;
     background: #fff;
     color: #000;
@@ -467,6 +467,10 @@ section.counter-main {
     padding: 10px 0;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
     z-index: 5;
+}
+
+.ezi_header .links_sidemenu {
+    padding: 0;
 }
 
 .ezi_header .links_sidemenu span::before {
@@ -477,6 +481,7 @@ section.counter-main {
     color: #000;
     padding: 0 10px;
 }
+
 
 /* announcement Bar */
 .announce-bar .bar_contact {
@@ -1779,6 +1784,30 @@ section.press_sec::after {
         margin-bottom: 4rem;
     }
 
+    .ezi_header #nav-toggle:checked~.links {
+        height: 92%;
+        top: 4.5rem;
+        background-image: unset;
+        background-repeat: repeat;
+        overflow-x: hidden;
+        color: #000;
+        box-shadow: unset;
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .ezi_header .links_sidemenu span::before {
+        color: #000;
+    }
+
+    .ezi_header .dropdown {
+        width: 350px;
+    }
+
+    .ezi_header nav .links a:not(:has(img)) {
+        color: #000;
+    }
+
 
     /* footer */
 
@@ -2217,6 +2246,10 @@ section.press_sec::after {
 
     .down_btn {
         font-size: 14px;
+    }
+
+    .ezi_header .dropdown {
+        width: 280px;
     }
 }
 
